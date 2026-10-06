@@ -1,12 +1,22 @@
 {
- "kqd": -0.5904781381850552,
- "kqfa": 0.33773306392384533,
- "kqfb": 0.54694196901415,
+ "kqd": "((-0.5904781381850552 + kqd_from_tune_x) + kqd_from_tune_y)",
+ "kqfa": "((0.33773306392384533 + kqfa_from_tune_x) + kqfa_from_tune_y)",
+ "kqfb": "((0.54694196901415 + kqfb_from_tune_x) + kqfb_from_tune_y)",
  "ksd": "((-0.7890349858005108 + ksd_from_chrom_x) + ksd_from_chrom_y)",
  "kse": 0.0,
  "ksf": "((0.5920866296533738 + ksf_from_chrom_x) + ksf_from_chrom_y)",
  "ksf_from_chrom_x": "(0.6564642209588248 * chrom_x)",
  "ksd_from_chrom_x": "(-0.1938587226012314 * chrom_x)",
+ "chrom_x": 0.0,
  "ksf_from_chrom_y": "(0.20205156906650099 * chrom_y)",
- "ksd_from_chrom_y": "(-0.6324802743113467 * chrom_y)"
+ "ksd_from_chrom_y": "(-0.6324802743113467 * chrom_y)",
+ "chrom_y": 0.0,
+ "kqfa_from_tune_x": "((0.42960490633325965 * tune_x) - 0.704554576473562)",
+ "kqfb_from_tune_x": "((0.05847273347047129 * tune_x) - 0.09589562725706217)",
+ "kqd_from_tune_x": "((-0.18188781317686614 * tune_x) - -0.2982970848082422)",
+ "tune_x": 1.6400058893345464,
+ "kqfa_from_tune_y": "((0.09861606407368338 * tune_y) - 0.16961990359456786)",
+ "kqfb_from_tune_y": "((0.09666899856903394 * tune_y) - 0.16627094552882934)",
+ "kqd_from_tune_y": "((-0.44554735810815954 * tune_y) - -0.7663426911122077)",
+ "tune_y": 1.7200027722444107
 }
