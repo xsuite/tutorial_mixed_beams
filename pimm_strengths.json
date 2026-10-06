@@ -1,0 +1,12 @@
+{
+ "kqd": -0.5904781381850552,
+ "kqfa": 0.33773306392384533,
+ "kqfb": 0.54694196901415,
+ "ksd": "((-0.7890349858005108 + ksd_from_chrom_x) + ksd_from_chrom_y)",
+ "kse": 0.0,
+ "ksf": "((0.5920866296533738 + ksf_from_chrom_x) + ksf_from_chrom_y)",
+ "ksf_from_chrom_x": "(0.6564642209588248 * chrom_x)",
+ "ksd_from_chrom_x": "(-0.1938587226012314 * chrom_x)",
+ "ksf_from_chrom_y": "(0.20205156906650099 * chrom_y)",
+ "ksd_from_chrom_y": "(-0.6324802743113467 * chrom_y)"
+}
